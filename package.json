@@ -1,0 +1,23 @@
+{
+  "name": "workspaces-example",
+  "version": "1.0.0",
+  "description": "Dependency confusion example for NPM's workspaces feature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naaytesting/workspaces-example.git"
+  },
+  "author": "Miguel Jimeno",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/naaytesting/workspaces-example/issues"
+  },
+  "homepage": "https://github.com/naaytesting/workspaces-example#readme",
+  "workspaces": [
+    "packages/example-dep"
+  ]
+}
